@@ -75,7 +75,7 @@ pip install -r requirements.txt
 
 ```bash
 # .env
-HF_TOKEN=your_huggingface_token_here (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)
+HF_TOKEN= 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
 ```
 
 > **Примечание**: Токен нужен для загрузки модели FRIDA с Hugging Face.  
