@@ -147,7 +147,7 @@ python -m src.ingest_frida --input chunks_frida_500_100.json --collection bank_s
 ### 4. Поиск ответов
 
 ```bash
-python -m src.rag_retrieval_frida --collection bank_site_frida_500_100 --batch-size 32 --top-k 5
+python -m src.rag_retrieval_frida --collection bank_site_frida_500_100 
 ```
 
 **Параметры:**
@@ -219,7 +219,6 @@ DEBUG=True
 | Top-K | 5 | Количество результатов |
 | Batch Size | 32 | Размер батча для обработки |
 | Model | FRIDA | ai-forever/FRIDA |
-| Splitting | Sentence-based | Умное разбиение по предложениям |
 
 ## 🔍 Полный пайплайн (краткая версия)
 
